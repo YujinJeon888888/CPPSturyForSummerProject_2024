@@ -140,6 +140,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="auto.cpp" />
+    <ClCompile Include="cin.cpp" />
+    <ClCompile Include="sting.cpp" />
+    <ClCompile Include="Using.cpp" />
+    <ClCompile Include="typedef.cpp" />
+    <ClCompile Include="구조체.cpp" />
+    <ClCompile Include="변수범위.cpp" />
+    <ClCompile Include="이넘.cpp" />
+    <ClCompile Include="random.cpp" />
+    <ClCompile Include="지속공간.cpp" />
+    <ClCompile Include="형변환.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
