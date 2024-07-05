@@ -1,0 +1,7 @@
+﻿  클래스와const.cpp
+클래스_헤더분리_main.obj : error LNK2019: "public: __thiscall Calc::Calc(void)" (??0Calc@@QAE@XZ)"int __cdecl main_클래스헤더분리(void)" (?main_클래스헤더분리@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+클래스_헤더분리_main.obj : error LNK2019: "public: int __thiscall Calc::add(int const &,int const &)" (?add@Calc@@QAEHABH0@Z)"int __cdecl main_클래스헤더분리(void)" (?main_클래스헤더분리@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+클래스_헤더분리_main.obj : error LNK2019: "public: int __thiscall Calc::sub(int const &,int const &)" (?sub@Calc@@QAEHABH0@Z)"int __cdecl main_클래스헤더분리(void)" (?main_클래스헤더분리@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+클래스_헤더분리_main.obj : error LNK2019: "public: int __thiscall Calc::getA(void)" (?getA@Calc@@QAEHXZ)"int __cdecl main_클래스헤더분리(void)" (?main_클래스헤더분리@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+클래스_헤더분리_main.obj : error LNK2019: "public: int __thiscall Calc::getB(void)" (?getB@Calc@@QAEHXZ)"int __cdecl main_클래스헤더분리(void)" (?main_클래스헤더분리@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+E:\킹\제로부터시작하는게임개발\깃허브\CPPSturyForSummerProject_2024\Project1\Debug\Project6.exe : fatal error LNK1120: 5개의 확인할 수 없는 외부 참조입니다.
