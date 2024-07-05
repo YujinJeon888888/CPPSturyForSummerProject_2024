@@ -22,6 +22,5 @@ int main_클래스헤더분리() {
 	cout << calc.add(2, 3) << endl;
 	cout << calc.sub(3, 7) << endl;
 	
-
 	return 0;
 }
