@@ -141,9 +141,14 @@
   <ItemGroup>
     <ClCompile Include="friend.cpp" />
     <ClCompile Include="static.cpp" />
+    <ClCompile Include="initialized_list.cpp" />
+    <ClCompile Include="단항연산자오버로딩.cpp" />
+    <ClCompile Include="산술연산자오버로딩.cpp" />
     <ClCompile Include="실행시간측정하기.cpp" />
+    <ClCompile Include="얕은복사_깊은복사.cpp" />
     <ClCompile Include="익명객체_anonymous.cpp" />
     <ClCompile Include="클래스안에포함된자료형.cpp" />
+    <ClCompile Include="프린트함수오버로딩.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="실행시간측정하기.h" />
