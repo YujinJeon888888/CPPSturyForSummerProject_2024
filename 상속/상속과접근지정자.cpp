@@ -10,9 +10,9 @@ private:
 	int m_private;
 };
 //private로 막아버린다는 거는 , 상속받은데에서는 접근 불가능하다는 것( Derived안에서만 Base접근가능)
-class Derived : private Base {
+class Derived1 : private Base {
 public :
-	Derived() {
+	Derived1() {
 		m_public;//된다
 		m_protected;//된다.
 		//m_private;//안된다.
@@ -20,7 +20,7 @@ public :
 	
 };
 
-class GrandChild : public Derived {
+class GrandChild : public Derived1 {
 public:
 	GrandChild() {
 		//안된다.
@@ -40,7 +40,7 @@ int main_접근지정자() {
 	//안됨
 	//base.m_private;
 	
-	Derived derived;
+	Derived1 derived;
 	//안됨. 상속할 때 protected로 상속했으니까
 	//derived.m_public;
 	

@@ -17,14 +17,14 @@ public:
 	}
 };
 
-class Derived : public Base {
+class Derived1 : public Base {
 private: 
 	double m_d;
 public:
-	Derived() {
+	Derived1() {
 		Base();
 	}
-	Derived(int value) 
+	Derived1(int value) 
 		:Base(value) 
 	{}
 	
@@ -41,7 +41,7 @@ int main_오버라이딩() {
 	Base base;
 	base.print();
 
-	Derived derived;
+	Derived1 derived;
 	derived.print();
 	
 	return 0;

@@ -17,14 +17,14 @@ public:
 	}
 };
 
-class Derived : public Base {
+class Derived1 : public Base {
 private:
 	double m_d;
 public:
-	Derived() {
+	Derived1() {
 		Base();
 	}
-	Derived(int value)
+	Derived1(int value)
 		:Base(value)
 	{}
 
@@ -41,7 +41,7 @@ int main_감춰() {
 	//접근된다. public이니까
 	base.print();
 	
-	Derived derived;
+	Derived1 derived;
 	//접근 된다. Derived 안에서 퍼블릭 화 해버림.
 	derived.m_i;
 	//접근 안 된다. Derived 안에서 프라이빗 화 해버림.
